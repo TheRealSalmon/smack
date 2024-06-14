@@ -3,7 +3,8 @@ use leptos::*;
 #[component]
 pub fn App() -> impl IntoView {
     view! {
-      <div class="h-screen flex flex-col overflow-y-scroll space-y-3 pt-2 font-mono text-slate-50 bg-slate-800">
+      <div class="h-2 bg-slate-800 top-0"></div>
+      <div class="h-auto w-screen top-0 flex flex-col overflow-y-scroll space-y-3 pt-2 font-mono text-slate-50 bg-slate-800">
         <div class="px-2">
           <div class="flex flex-row px-2">
             <p class="font-bold">"Workspace"</p>
@@ -16,8 +17,8 @@ pub fn App() -> impl IntoView {
           </div>
         </div>
 
-        <div class="h-full flex flex-col overflow-x-scroll rounded-xl border-2 border-slate-600 bg-slate-700">
-          <div class="flex flex-row">
+        <div class="h-full flex flex-col rounded-xl border-2 border-slate-600 bg-slate-700">
+          <div class="flex flex-row overflow-x-scroll">
             <div class="p-2">
               <div class="p-4 h-20 w-32 rounded-xl border-2 border-slate-600">
                 <p>"Catch Up"</p>
