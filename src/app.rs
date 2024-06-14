@@ -3,6 +3,6 @@ use leptos::*;
 #[component]
 pub fn App() -> impl IntoView {
     view! {
-        <p>"Meep"</p>
+        <p class="text-red-800">"Meep"</p>
     }
 }
