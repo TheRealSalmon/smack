@@ -3,7 +3,6 @@ use leptos::*;
 #[component]
 pub fn App() -> impl IntoView {
     view! {
-      <div class="h-2 bg-slate-800 top-0"></div>
       <div class="h-auto w-screen top-0 flex flex-col overflow-y-scroll space-y-3 pt-2 font-mono text-slate-50 bg-slate-800">
         <div class="px-2">
           <div class="flex flex-row px-2">
