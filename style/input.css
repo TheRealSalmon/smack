@@ -5,6 +5,6 @@
 @layer utilities {
   html,
   body {
-    position: absolute;
+    overflow: hidden;
   }
 }
